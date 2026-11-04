@@ -2,7 +2,7 @@
 
 ## About
 
-**Planify** is a web platform designed to streamline meeting planning and scheduling developed as a third-year Bachelor's (L3 Informatique) project at Université Paris Cité. Built from scratch, this project allows users to propose meeting slots, invite participants, and vote to find the best common dates.
+**Planify** is a web platform designed to streamline meeting planning and scheduling developed as a third-year Bachelor's (L3 Informatique) project at Université Paris Cité. Built from scratch, this project allows users to propose meeting slots, invite participants, import `.ics` calendars to cast their votes immediately, and find the best common dates.
 
 The project features user authentication, email-based voting links for participants without an account, profile management, and calendar integration.
 
@@ -18,6 +18,7 @@ The project features user authentication, email-based voting links for participa
 ## Key Features
 - **Meeting Creation & Management:** Organizers can propose multiple date slots and invite participants.
 - **Flexible Participant Voting:** Registered users or invited guests (via a unique secure email link without a required account) can vote on time slots.
+- **Calendar `.ics` Import:** Seamlessly import `.ics` calendar files to automatically analyze availabilities and vote immediately.
 - **User Authentication:** Secure sign-up, login, and password recovery via email notifications.
 - **Account Management:** Ability to update user profile information, passwords, and profile pictures.
 - **User Directory & Search:** Search bar feature to easily look up other users and accounts on the platform.
